@@ -4,6 +4,9 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+ <welcome-file-list>
+ <welcome-file>registration.html</welcome-file>
+ </welcome-file-list>
   <servlet>
         <servlet-name>RegisterServlet</servlet-name>
         <servlet-class>com.shiva.RegisterServlet</servlet-class>
